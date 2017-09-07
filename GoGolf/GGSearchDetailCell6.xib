@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CharlevoixPro-Regular.otf">
+            <string>CharlevoixPro-Regular</string>
+        </array>
+        <array key="CharlevoixPro-Semibold.otf">
+            <string>CharlevoixPro-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="searchDetailCell6" rowHeight="133" id="KGk-i7-Jjw" customClass="GGSearchDetailCell6">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="133"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="132"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Time " translatesAutoresizingMaskIntoConstraints="NO" id="abA-Ky-zgs">
+                        <rect key="frame" x="8" y="8" width="24" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="6N7-Ve-OWb"/>
+                            <constraint firstAttribute="width" constant="24" id="Shd-kB-sZk"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Close Time:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bsN-an-PWL">
+                        <rect key="frame" x="31" y="31" width="70" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="cRe-oB-HVt"/>
+                            <constraint firstAttribute="width" constant="70" id="nyg-VW-wNs"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="CharlevoixPro-Regular" family="Charlevoix Pro" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Close Date:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nZ9-o4-ALo">
+                        <rect key="frame" x="31" y="50" width="70" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="BP7-Ab-O31"/>
+                            <constraint firstAttribute="width" constant="70" id="HsR-Am-KRf"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="CharlevoixPro-Regular" family="Charlevoix Pro" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="05:30" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c51-jx-VKG">
+                        <rect key="frame" x="100" y="11" width="45" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="4l3-Vl-pKe"/>
+                            <constraint firstAttribute="width" constant="45" id="kXn-bR-qQJ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="CharlevoixPro-Semibold" family="Charlevoix Pro" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="17:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="blq-lQ-awe">
+                        <rect key="frame" x="100" y="31" width="45" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="3B0-NR-IfF"/>
+                            <constraint firstAttribute="width" constant="45" id="6v5-GS-daL"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="CharlevoixPro-Semibold" family="Charlevoix Pro" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Saturday" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ree-ZY-Cyo">
+                        <rect key="frame" x="100" y="50" width="60" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="CXT-dx-XUj"/>
+                            <constraint firstAttribute="width" constant="60" id="on5-nC-ZCs"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="CharlevoixPro-Semibold" family="Charlevoix Pro" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Information" translatesAutoresizingMaskIntoConstraints="NO" id="YZR-dq-AKv">
+                        <rect key="frame" x="154" y="8" width="24" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="24" id="7BT-7R-sqz"/>
+                            <constraint firstAttribute="height" constant="24" id="SYq-dZ-J6W"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Holes:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YHb-xJ-bVS">
+                        <rect key="frame" x="177" y="11" width="65" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="TcV-Jm-4dF"/>
+                            <constraint firstAttribute="width" constant="65" id="zOZ-U1-qjA"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="CharlevoixPro-Regular" family="Charlevoix Pro" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="18 Holes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Yr-XK-Bld">
+                        <rect key="frame" x="243" y="11" width="69" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="69" id="THb-Pv-CA5"/>
+                            <constraint firstAttribute="height" constant="16" id="hdx-gG-QBj"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="CharlevoixPro-Semibold" family="Charlevoix Pro" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Par:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RXU-Nk-pCO">
+                        <rect key="frame" x="177" y="31" width="27" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="a0E-3V-083"/>
+                            <constraint firstAttribute="width" constant="27" id="h79-XW-FwS"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="CharlevoixPro-Regular" family="Charlevoix Pro" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="72 Yards" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="61C-hc-ntO">
+                        <rect key="frame" x="202" y="31" width="110" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="eJl-MJ-A5y"/>
+                            <constraint firstAttribute="width" constant="110" id="iBQ-Fm-EMw"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="CharlevoixPro-Semibold" family="Charlevoix Pro" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Length:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kod-qg-On2">
+                        <rect key="frame" x="177" y="50" width="45" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="7be-Xm-RB7"/>
+                            <constraint firstAttribute="width" constant="45" id="Wh6-zX-Pek"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="CharlevoixPro-Regular" family="Charlevoix Pro" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7166 Yards" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kwk-8Q-6iV">
+                        <rect key="frame" x="221" y="50" width="91" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="bfm-0P-4F3"/>
+                            <constraint firstAttribute="width" constant="91" id="yKy-iJ-a4F"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="CharlevoixPro-Semibold" family="Charlevoix Pro" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Est in:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rzj-bl-ni7">
+                        <rect key="frame" x="177" y="69" width="40" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="22f-5v-xR3"/>
+                            <constraint firstAttribute="height" constant="16" id="FsI-RM-fRN"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="CharlevoixPro-Regular" family="Charlevoix Pro" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Oct 24th 2016" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hU5-jC-xFp">
+                        <rect key="frame" x="215" y="69" width="97" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="X9E-fu-R2K"/>
+                            <constraint firstAttribute="width" constant="97" id="wcJ-hd-eHA"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="CharlevoixPro-Semibold" family="Charlevoix Pro" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Designer:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4oD-xO-PML">
+                        <rect key="frame" x="177" y="87" width="55" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="CFa-Rk-NV7"/>
+                            <constraint firstAttribute="width" constant="55" id="a4x-xU-oi5"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="CharlevoixPro-Regular" family="Charlevoix Pro" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nelson" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sni-Ig-NJZ">
+                        <rect key="frame" x="235" y="87" width="77" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="77" id="BFD-fS-f9s"/>
+                            <constraint firstAttribute="height" constant="16" id="QnF-im-pOg"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="CharlevoixPro-Semibold" family="Charlevoix Pro" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Open Time:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lao-I1-WLf">
+                        <rect key="frame" x="31" y="12" width="70" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="Ut5-bg-gDR"/>
+                            <constraint firstAttribute="width" constant="70" id="o0u-62-2Rw"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="CharlevoixPro-Regular" family="Charlevoix Pro" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="RXU-Nk-pCO" firstAttribute="top" secondItem="YHb-xJ-bVS" secondAttribute="bottom" constant="4" id="0O4-mz-A6X"/>
+                    <constraint firstItem="Ree-ZY-Cyo" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="100" id="0j2-JN-iJ4"/>
+                    <constraint firstItem="hU5-jC-xFp" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="215" id="12t-Yy-xPN"/>
+                    <constraint firstItem="c51-jx-VKG" firstAttribute="leading" secondItem="abA-Ky-zgs" secondAttribute="trailing" constant="68" id="1bQ-uT-ZSb"/>
+                    <constraint firstItem="kwk-8Q-6iV" firstAttribute="top" secondItem="61C-hc-ntO" secondAttribute="bottom" constant="3" id="1zD-G9-jdd"/>
+                    <constraint firstItem="sni-Ig-NJZ" firstAttribute="leading" secondItem="4oD-xO-PML" secondAttribute="trailing" constant="3" id="2Rj-vC-1xN"/>
+                    <constraint firstItem="4oD-xO-PML" firstAttribute="top" secondItem="hU5-jC-xFp" secondAttribute="bottom" constant="2" id="6g6-dO-X9i"/>
+                    <constraint firstItem="RXU-Nk-pCO" firstAttribute="leading" secondItem="blq-lQ-awe" secondAttribute="trailing" constant="32" id="8nx-Lc-YaE"/>
+                    <constraint firstItem="blq-lQ-awe" firstAttribute="top" secondItem="c51-jx-VKG" secondAttribute="bottom" constant="4" id="9lP-oG-bef"/>
+                    <constraint firstItem="abA-Ky-zgs" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="CiB-lY-xYW"/>
+                    <constraint firstItem="61C-hc-ntO" firstAttribute="top" secondItem="8Yr-XK-Bld" secondAttribute="bottom" constant="4" id="DmE-HM-T5g"/>
+                    <constraint firstItem="sni-Ig-NJZ" firstAttribute="leading" secondItem="4oD-xO-PML" secondAttribute="trailing" constant="3" id="GPc-Tl-Rh2"/>
+                    <constraint firstItem="YZR-dq-AKv" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="Ie6-wT-MAw"/>
+                    <constraint firstItem="abA-Ky-zgs" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="LVA-fb-kO7"/>
+                    <constraint firstItem="Lao-I1-WLf" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12" id="ODJ-U2-jru"/>
+                    <constraint firstItem="blq-lQ-awe" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="100" id="Pc7-oa-fKM"/>
+                    <constraint firstItem="8Yr-XK-Bld" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="Qb5-b0-1n2"/>
+                    <constraint firstAttribute="trailing" secondItem="kwk-8Q-6iV" secondAttribute="trailing" constant="8" id="RjQ-s1-0bQ"/>
+                    <constraint firstItem="c51-jx-VKG" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="XcW-0F-uva"/>
+                    <constraint firstAttribute="trailing" secondItem="8Yr-XK-Bld" secondAttribute="trailing" constant="8" id="cwP-MP-Szy"/>
+                    <constraint firstItem="YZR-dq-AKv" firstAttribute="leading" secondItem="c51-jx-VKG" secondAttribute="trailing" constant="9" id="eHE-vc-OqZ"/>
+                    <constraint firstItem="sni-Ig-NJZ" firstAttribute="top" secondItem="hU5-jC-xFp" secondAttribute="bottom" constant="2" id="efz-tc-Ub1"/>
+                    <constraint firstAttribute="trailing" secondItem="sni-Ig-NJZ" secondAttribute="trailing" constant="8" id="fH6-Gr-JEC"/>
+                    <constraint firstItem="61C-hc-ntO" firstAttribute="leading" secondItem="blq-lQ-awe" secondAttribute="trailing" constant="57" id="gW5-Pw-KgA"/>
+                    <constraint firstItem="YHb-xJ-bVS" firstAttribute="leading" secondItem="c51-jx-VKG" secondAttribute="trailing" constant="32" id="hpw-cA-CvU"/>
+                    <constraint firstItem="nZ9-o4-ALo" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="31" id="isc-QM-MFJ"/>
+                    <constraint firstItem="8Yr-XK-Bld" firstAttribute="leading" secondItem="YHb-xJ-bVS" secondAttribute="trailing" constant="1" id="jJv-sw-K4n"/>
+                    <constraint firstItem="nZ9-o4-ALo" firstAttribute="top" secondItem="bsN-an-PWL" secondAttribute="bottom" constant="3" id="jM5-cU-aWB"/>
+                    <constraint firstAttribute="trailing" secondItem="rzj-bl-ni7" secondAttribute="trailing" constant="103" id="mUD-kf-2uz"/>
+                    <constraint firstAttribute="trailing" secondItem="hU5-jC-xFp" secondAttribute="trailing" constant="8" id="q91-tO-Ynm"/>
+                    <constraint firstItem="bsN-an-PWL" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="31" id="qNJ-1e-Vju"/>
+                    <constraint firstItem="Kod-qg-On2" firstAttribute="top" secondItem="61C-hc-ntO" secondAttribute="bottom" constant="3" id="rCI-ac-7eY"/>
+                    <constraint firstItem="rzj-bl-ni7" firstAttribute="top" secondItem="Kod-qg-On2" secondAttribute="bottom" constant="3" id="sDh-Jt-upL"/>
+                    <constraint firstItem="bsN-an-PWL" firstAttribute="top" secondItem="Lao-I1-WLf" secondAttribute="bottom" constant="3" id="t4Q-M4-j1h"/>
+                    <constraint firstItem="YHb-xJ-bVS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="u7c-ls-ecv"/>
+                    <constraint firstItem="hU5-jC-xFp" firstAttribute="top" secondItem="kwk-8Q-6iV" secondAttribute="bottom" constant="3" id="vyC-z9-at6"/>
+                    <constraint firstItem="Ree-ZY-Cyo" firstAttribute="top" secondItem="blq-lQ-awe" secondAttribute="bottom" constant="3" id="wLN-qT-kkP"/>
+                    <constraint firstItem="Lao-I1-WLf" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="31" id="wci-uh-qSC"/>
+                    <constraint firstItem="Kod-qg-On2" firstAttribute="leading" secondItem="Ree-ZY-Cyo" secondAttribute="trailing" constant="17" id="wqc-4s-hrT"/>
+                    <constraint firstItem="kwk-8Q-6iV" firstAttribute="leading" secondItem="Ree-ZY-Cyo" secondAttribute="trailing" constant="61" id="wvA-Do-0KB"/>
+                    <constraint firstAttribute="trailing" secondItem="61C-hc-ntO" secondAttribute="trailing" constant="8" id="zuM-ry-49b"/>
+                </constraints>
+            </tableViewCellContentView>
+            <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+            <connections>
+                <outlet property="lblDay" destination="Ree-ZY-Cyo" id="6VF-iz-4Jk"/>
+                <outlet property="lblDesign" destination="sni-Ig-NJZ" id="hOa-aX-Anw"/>
+                <outlet property="lblETime" destination="blq-lQ-awe" id="5tU-Mu-i4a"/>
+                <outlet property="lblEstDate" destination="hU5-jC-xFp" id="mds-qr-WSM"/>
+                <outlet property="lblHoles" destination="8Yr-XK-Bld" id="9TS-Ob-ZIK"/>
+                <outlet property="lblLength" destination="kwk-8Q-6iV" id="aOx-mF-ywh"/>
+                <outlet property="lblPar" destination="61C-hc-ntO" id="3Ge-HD-Kqq"/>
+                <outlet property="lblSTime" destination="c51-jx-VKG" id="5gG-bP-iWA"/>
+            </connections>
+            <point key="canvasLocation" x="35" y="146.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Information" width="512" height="512"/>
+        <image name="Time " width="512" height="512"/>
+    </resources>
+</document>

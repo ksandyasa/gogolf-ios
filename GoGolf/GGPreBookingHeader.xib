@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CharlevoixPro-Regular.otf">
+            <string>CharlevoixPro-Regular</string>
+        </array>
+        <array key="CharlevoixPro-Semibold.otf">
+            <string>CharlevoixPro-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GGPreBookingHeader">
+            <connections>
+                <outlet property="ivPreCourse" destination="UJ7-iy-xjb" id="vV0-ie-iw8"/>
+                <outlet property="lblPreCourseDisc" destination="cLD-Q8-iBd" id="Kpd-YY-JgP"/>
+                <outlet property="lblPreCourseName" destination="qBK-Q1-PJn" id="dgI-Jz-aOx"/>
+                <outlet property="lblPreCoursePPrice" destination="1hL-dy-N8q" id="SqC-YF-fL9"/>
+                <outlet property="lblPreCoursePrice" destination="lzJ-5a-Ma0" id="XEY-Ud-U24"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="220"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UJ7-iy-xjb">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="220"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" text="PADANG GOLF MODERN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qBK-Q1-PJn">
+                    <rect key="frame" x="10" y="10" width="300" height="21"/>
+                    <fontDescription key="fontDescription" name="CharlevoixPro-Semibold" family="Charlevoix Pro" pointSize="16"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                    <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <size key="shadowOffset" width="1" height="1"/>
+                </label>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rp. 800.000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lzJ-5a-Ma0">
+                    <rect key="frame" x="10" y="31" width="300" height="17"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="17" id="xlw-vY-e6o"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="CharlevoixPro-Semibold" family="Charlevoix Pro" pointSize="14"/>
+                    <color key="textColor" red="0.4941176471" green="0.82745098039999998" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                    <color key="shadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <size key="shadowOffset" width="1" height="1"/>
+                </label>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Disc. 20%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cLD-Q8-iBd">
+                    <rect key="frame" x="10" y="191" width="70" height="21"/>
+                    <color key="backgroundColor" red="0.96078431372549022" green="0.65098039215686276" blue="0.13725490196078433" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="70" id="NJY-Ou-isP"/>
+                        <constraint firstAttribute="height" constant="21" id="lby-ND-VbE"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="CharlevoixPro-Regular" family="Charlevoix Pro" pointSize="11"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rp. 1000.000" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1hL-dy-N8q">
+                    <rect key="frame" x="10" y="48" width="300" height="17"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="17" id="xMy-co-Pbj"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="CharlevoixPro-Semibold" family="Charlevoix Pro" pointSize="14"/>
+                    <color key="textColor" red="0.4941176471" green="0.82745098039999998" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                    <color key="shadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <size key="shadowOffset" width="1" height="1"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="UJ7-iy-xjb" secondAttribute="bottom" id="6CI-W3-KFL"/>
+                <constraint firstItem="UJ7-iy-xjb" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="BwJ-wg-QMi"/>
+                <constraint firstItem="qBK-Q1-PJn" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="10" id="Dj0-SZ-V6n"/>
+                <constraint firstAttribute="trailing" secondItem="1hL-dy-N8q" secondAttribute="trailing" constant="10" id="F6F-NF-Qj3"/>
+                <constraint firstItem="qBK-Q1-PJn" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="F8G-xH-Qyk"/>
+                <constraint firstAttribute="bottom" secondItem="cLD-Q8-iBd" secondAttribute="bottom" constant="8" id="HY6-yQ-DOj"/>
+                <constraint firstItem="UJ7-iy-xjb" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="HhU-5o-FUH"/>
+                <constraint firstItem="lzJ-5a-Ma0" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="MRx-7G-wb0"/>
+                <constraint firstItem="cLD-Q8-iBd" firstAttribute="top" secondItem="1hL-dy-N8q" secondAttribute="bottom" constant="126" id="NYh-hR-spu"/>
+                <constraint firstItem="1hL-dy-N8q" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="f0M-Za-fos"/>
+                <constraint firstItem="lzJ-5a-Ma0" firstAttribute="top" secondItem="qBK-Q1-PJn" secondAttribute="bottom" id="hzy-cT-9k6"/>
+                <constraint firstItem="cLD-Q8-iBd" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="jnK-mH-znK"/>
+                <constraint firstItem="1hL-dy-N8q" firstAttribute="top" secondItem="lzJ-5a-Ma0" secondAttribute="bottom" id="nWY-uj-MkY"/>
+                <constraint firstAttribute="trailing" secondItem="lzJ-5a-Ma0" secondAttribute="trailing" constant="10" id="qtE-Yf-HL3"/>
+                <constraint firstAttribute="trailing" secondItem="UJ7-iy-xjb" secondAttribute="trailing" id="tOs-tY-nas"/>
+                <constraint firstAttribute="trailing" secondItem="qBK-Q1-PJn" secondAttribute="trailing" constant="10" id="vai-sJ-CWj"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+</document>

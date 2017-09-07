@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CharlevoixPro-Regular.otf">
+            <string>CharlevoixPro-Regular</string>
+        </array>
+        <array key="CharlevoixPro-Semibold.otf">
+            <string>CharlevoixPro-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="detailPromoCell" id="dbu-uB-aJ8">
+            <rect key="frame" x="0.0" y="0.0" width="240" height="184"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="240" height="184"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K0P-PH-5I0">
+                        <rect key="frame" x="2" y="2" width="236" height="180"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <imageView userInteractionEnabled="NO" tag="1" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="def_big_img" translatesAutoresizingMaskIntoConstraints="NO" id="QPb-E9-me9">
+                        <rect key="frame" x="2" y="2" width="236" height="112"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="112" id="B9F-pR-6u5"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Calender_icon" translatesAutoresizingMaskIntoConstraints="NO" id="K2t-41-eFF">
+                        <rect key="frame" x="8" y="118" width="12" height="12"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="12" id="q2p-bM-Vcd"/>
+                            <constraint firstAttribute="width" constant="12" id="rqL-Hx-Ws3"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="02 Agustus 2016" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PhW-4a-pfR">
+                        <rect key="frame" x="24" y="115" width="208" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="208" id="4QB-2s-gqR"/>
+                            <constraint firstAttribute="height" constant="18" id="fw3-gJ-bbB"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="CharlevoixPro-Regular" family="Charlevoix Pro" pointSize="11"/>
+                        <color key="textColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rp. 170000" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Amr-uK-JX7">
+                        <rect key="frame" x="8" y="132" width="224" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="J7w-x5-8OG"/>
+                            <constraint firstAttribute="height" constant="20" id="Sha-1G-aNe"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="CharlevoixPro-Semibold" family="Charlevoix Pro" pointSize="12"/>
+                        <color key="textColor" red="0.4941176471" green="0.82745098039999998" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="J7w-x5-8OG"/>
+                            </mask>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" tag="4" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rp. 0" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IV8-z8-Xab">
+                        <rect key="frame" x="8" y="149" width="224" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="9xg-pU-fDr"/>
+                            <constraint firstAttribute="height" constant="20" id="Shw-3d-mqf"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="CharlevoixPro-Semibold" family="Charlevoix Pro" pointSize="12"/>
+                        <color key="textColor" red="0.4941176471" green="0.82745098039999998" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Shw-3d-mqf"/>
+                            </mask>
+                        </variation>
+                    </label>
+                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XmH-ej-vHi">
+                        <rect key="frame" x="8" y="158" width="90" height="2"/>
+                        <color key="backgroundColor" red="0.4941176471" green="0.82745098039999998" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" tag="5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rest of limits : 0 Flight" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jDi-s3-Law">
+                        <rect key="frame" x="24" y="168" width="208" height="13"/>
+                        <fontDescription key="fontDescription" name="CharlevoixPro-Regular" family="Charlevoix Pro" pointSize="9"/>
+                        <color key="textColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" red="0.4941176471" green="0.82745098039999998" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Amr-uK-JX7" firstAttribute="top" secondItem="K2t-41-eFF" secondAttribute="bottom" constant="2" id="3D2-cI-aa2"/>
+                <constraint firstItem="XmH-ej-vHi" firstAttribute="centerY" secondItem="IV8-z8-Xab" secondAttribute="centerY" id="6LH-Uw-lN9"/>
+                <constraint firstItem="XmH-ej-vHi" firstAttribute="leading" secondItem="IV8-z8-Xab" secondAttribute="leading" id="9FN-cC-xc2"/>
+                <constraint firstAttribute="trailing" secondItem="IV8-z8-Xab" secondAttribute="trailing" constant="8" id="Bqt-qb-yf9"/>
+                <constraint firstItem="IV8-z8-Xab" firstAttribute="top" secondItem="Amr-uK-JX7" secondAttribute="bottom" constant="-3" id="E74-Rf-D7O"/>
+                <constraint firstItem="QPb-E9-me9" firstAttribute="top" secondItem="dbu-uB-aJ8" secondAttribute="top" constant="2" id="ENw-FE-27P"/>
+                <constraint firstItem="Amr-uK-JX7" firstAttribute="leading" secondItem="dbu-uB-aJ8" secondAttribute="leading" constant="8" id="Gno-ma-kCo"/>
+                <constraint firstAttribute="trailing" secondItem="Amr-uK-JX7" secondAttribute="trailing" constant="8" id="Ivi-Fu-HFw"/>
+                <constraint firstItem="jDi-s3-Law" firstAttribute="top" secondItem="XmH-ej-vHi" secondAttribute="bottom" constant="8" symbolic="YES" id="JCd-Iy-KiG"/>
+                <constraint firstItem="IV8-z8-Xab" firstAttribute="leading" secondItem="dbu-uB-aJ8" secondAttribute="leading" constant="8" id="NHQ-hZ-Uod"/>
+                <constraint firstItem="QPb-E9-me9" firstAttribute="leading" secondItem="dbu-uB-aJ8" secondAttribute="leading" constant="2" id="P9X-FS-jHs"/>
+                <constraint firstAttribute="trailing" secondItem="QPb-E9-me9" secondAttribute="trailing" constant="2" id="PvF-6w-ljX"/>
+                <constraint firstAttribute="bottom" secondItem="K0P-PH-5I0" secondAttribute="bottom" constant="2" id="TDp-eF-KGi"/>
+                <constraint firstAttribute="trailing" secondItem="K0P-PH-5I0" secondAttribute="trailing" constant="2" id="WBC-CL-1Lt"/>
+                <constraint firstItem="PhW-4a-pfR" firstAttribute="trailing" secondItem="dbu-uB-aJ8" secondAttribute="trailingMargin" id="WJR-MB-YJl"/>
+                <constraint firstItem="K0P-PH-5I0" firstAttribute="top" secondItem="dbu-uB-aJ8" secondAttribute="top" constant="2" id="WM4-xf-PhN"/>
+                <constraint firstAttribute="trailing" secondItem="XmH-ej-vHi" secondAttribute="trailing" constant="142" id="Xop-E9-V2W"/>
+                <constraint firstItem="K0P-PH-5I0" firstAttribute="leading" secondItem="dbu-uB-aJ8" secondAttribute="leading" constant="2" id="ZeW-xy-zYG"/>
+                <constraint firstItem="PhW-4a-pfR" firstAttribute="top" secondItem="QPb-E9-me9" secondAttribute="bottom" constant="1" id="bfy-mu-P8J"/>
+                <constraint firstItem="PhW-4a-pfR" firstAttribute="leading" secondItem="K2t-41-eFF" secondAttribute="trailing" constant="4" id="cvB-tK-eLb"/>
+                <constraint firstItem="K2t-41-eFF" firstAttribute="leading" secondItem="dbu-uB-aJ8" secondAttribute="leadingMargin" id="dZC-N6-7Cj"/>
+                <constraint firstItem="jDi-s3-Law" firstAttribute="top" secondItem="IV8-z8-Xab" secondAttribute="bottom" constant="-1" id="gL2-ij-gJ2"/>
+                <constraint firstItem="K2t-41-eFF" firstAttribute="top" secondItem="QPb-E9-me9" secondAttribute="bottom" constant="4" id="kS6-W4-ZNS"/>
+                <constraint firstAttribute="bottom" secondItem="jDi-s3-Law" secondAttribute="bottom" constant="3" id="nSb-3n-hsc"/>
+                <constraint firstItem="jDi-s3-Law" firstAttribute="leading" secondItem="dbu-uB-aJ8" secondAttribute="leading" constant="24" id="o0W-hm-4bt"/>
+                <constraint firstAttribute="trailing" secondItem="jDi-s3-Law" secondAttribute="trailing" constant="8" id="x0B-fg-51J"/>
+            </constraints>
+            <point key="canvasLocation" x="35" y="-176"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Calender_icon" width="26" height="26"/>
+        <image name="def_big_img" width="213" height="200"/>
+    </resources>
+</document>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CharlevoixPro-Regular.otf">
+            <string>CharlevoixPro-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="preBookingCell3" rowHeight="77" id="KGk-i7-Jjw" customClass="GGPreBookingCell3">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="77"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="76"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flight Number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="klr-ug-Nkv">
+                        <rect key="frame" x="8" y="8" width="304" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="9fK-w3-aXP"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="CharlevoixPro-Regular" family="Charlevoix Pro" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5eK-Jw-PkI">
+                        <rect key="frame" x="8" y="35" width="304" height="33"/>
+                        <color key="backgroundColor" red="0.94117647059999998" green="0.94117647059999998" blue="0.94117647059999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="33" id="UXL-ww-3ho"/>
+                        </constraints>
+                        <nil key="textColor"/>
+                        <fontDescription key="fontDescription" name="CharlevoixPro-Regular" family="Charlevoix Pro" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wv0-3o-AWH">
+                        <rect key="frame" x="283" y="46" width="21" height="10"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="21" id="aAH-Xt-xUS"/>
+                            <constraint firstAttribute="height" constant="10" id="lhk-hb-FSO"/>
+                        </constraints>
+                        <state key="normal" image="down_arrow"/>
+                        <connections>
+                            <action selector="chooseFlightNumber:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="DfA-MD-3Ah"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="5eK-Jw-PkI" firstAttribute="top" secondItem="klr-ug-Nkv" secondAttribute="bottom" constant="9" id="1gG-up-VY6"/>
+                    <constraint firstItem="klr-ug-Nkv" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="43V-QD-2dI"/>
+                    <constraint firstItem="5eK-Jw-PkI" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="Eb5-C9-Cpb"/>
+                    <constraint firstAttribute="bottom" secondItem="wv0-3o-AWH" secondAttribute="bottom" constant="20" id="Rv1-ii-tXx"/>
+                    <constraint firstAttribute="trailing" secondItem="wv0-3o-AWH" secondAttribute="trailing" constant="16" id="UuZ-TX-t5u"/>
+                    <constraint firstAttribute="bottom" secondItem="5eK-Jw-PkI" secondAttribute="bottom" constant="8" id="a7d-df-Pvw"/>
+                    <constraint firstItem="klr-ug-Nkv" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="gx1-Ck-YJP"/>
+                    <constraint firstAttribute="trailing" secondItem="5eK-Jw-PkI" secondAttribute="trailing" constant="8" id="v77-Ej-N11"/>
+                    <constraint firstAttribute="trailing" secondItem="klr-ug-Nkv" secondAttribute="trailing" constant="8" id="zQE-41-27M"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="lblTitleFilght" destination="klr-ug-Nkv" id="bqs-ON-gzM"/>
+                <outlet property="txtPreBookingFlightNumber" destination="5eK-Jw-PkI" id="3tI-Ov-odE"/>
+            </connections>
+            <point key="canvasLocation" x="34" y="116.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="down_arrow" width="34" height="19"/>
+    </resources>
+</document>

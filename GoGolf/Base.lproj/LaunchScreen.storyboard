@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController storyboardIdentifier="GGSplash" id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p8K-aW-jjG">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo_2_without_bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="QLH-fl-M1k">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.4941176471" green="0.82745098039999998" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="QLH-fl-M1k" firstAttribute="top" secondItem="p8K-aW-jjG" secondAttribute="top" id="H9D-iZ-SpE"/>
+                                    <constraint firstAttribute="bottom" secondItem="QLH-fl-M1k" secondAttribute="bottom" id="Jro-L1-6Tp"/>
+                                    <constraint firstItem="QLH-fl-M1k" firstAttribute="centerX" secondItem="p8K-aW-jjG" secondAttribute="centerX" id="OY3-Px-ZSn"/>
+                                    <constraint firstAttribute="trailing" secondItem="QLH-fl-M1k" secondAttribute="trailing" id="Vgf-wI-qR2"/>
+                                    <constraint firstItem="QLH-fl-M1k" firstAttribute="centerY" secondItem="p8K-aW-jjG" secondAttribute="centerY" id="i4T-p7-eEN"/>
+                                    <constraint firstItem="QLH-fl-M1k" firstAttribute="leading" secondItem="p8K-aW-jjG" secondAttribute="leading" id="tLu-Qk-2aW"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="p8K-aW-jjG" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="2vI-UF-RRt"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="p8K-aW-jjG" secondAttribute="bottom" id="60S-3c-jmg"/>
+                            <constraint firstItem="p8K-aW-jjG" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Byx-oq-qg0"/>
+                            <constraint firstAttribute="trailing" secondItem="p8K-aW-jjG" secondAttribute="trailing" id="XoS-KG-nRZ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Logo_2_without_bg.png" width="804" height="377"/>
+    </resources>
+</document>

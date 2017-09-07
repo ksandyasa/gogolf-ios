@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CharlevoixPro-Regular.otf">
+            <string>CharlevoixPro-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="preBookingCell2" rowHeight="77" id="KGk-i7-Jjw" customClass="GGPreBookingCell2">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="77"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="76"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="taQ-EX-ygx">
+                        <rect key="frame" x="8" y="8" width="304" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="aH7-O6-cJD"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="CharlevoixPro-Regular" family="Charlevoix Pro" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DQh-UM-yAq">
+                        <rect key="frame" x="8" y="35" width="263" height="33"/>
+                        <color key="backgroundColor" red="0.94117647058823528" green="0.94117647058823528" blue="0.94117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="33" id="iuU-zN-dxI"/>
+                        </constraints>
+                        <nil key="textColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v1H-Nj-bSq">
+                        <rect key="frame" x="279" y="35" width="33" height="33"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="33" id="9Kb-ZT-CAR"/>
+                            <constraint firstAttribute="height" constant="33" id="Kds-UM-ukR"/>
+                        </constraints>
+                        <state key="normal" image="green_calender"/>
+                        <connections>
+                            <action selector="choosePreBookDate:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="0MK-WA-zfb"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="DQh-UM-yAq" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="Aed-CK-g4g"/>
+                    <constraint firstItem="v1H-Nj-bSq" firstAttribute="top" secondItem="taQ-EX-ygx" secondAttribute="bottom" constant="9" id="IJ7-J0-ZGe"/>
+                    <constraint firstAttribute="trailing" secondItem="v1H-Nj-bSq" secondAttribute="trailing" constant="8" id="Kvc-lh-voZ"/>
+                    <constraint firstItem="DQh-UM-yAq" firstAttribute="top" secondItem="taQ-EX-ygx" secondAttribute="bottom" constant="9" id="M0n-ws-8wW"/>
+                    <constraint firstAttribute="bottom" secondItem="v1H-Nj-bSq" secondAttribute="bottom" constant="8" id="Oq4-e3-fYe"/>
+                    <constraint firstItem="v1H-Nj-bSq" firstAttribute="leading" secondItem="DQh-UM-yAq" secondAttribute="trailing" constant="8" id="Uvh-pa-kPY"/>
+                    <constraint firstItem="taQ-EX-ygx" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="epL-Aa-pBR"/>
+                    <constraint firstAttribute="bottom" secondItem="DQh-UM-yAq" secondAttribute="bottom" constant="8" id="f78-LC-vOM"/>
+                    <constraint firstItem="taQ-EX-ygx" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="sqZ-Ai-jcX"/>
+                    <constraint firstAttribute="trailing" secondItem="taQ-EX-ygx" secondAttribute="trailing" constant="8" id="ylM-nF-pMn"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="txtPreBookDate" destination="DQh-UM-yAq" id="CJH-XN-y1Z"/>
+            </connections>
+            <point key="canvasLocation" x="34" y="116.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="green_calender" width="60" height="60"/>
+    </resources>
+</document>
